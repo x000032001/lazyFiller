@@ -10,7 +10,8 @@
 	-webkit-text-size-adjust: 100%
 }
 body {
-	margin: 0
+	margin: 0;
+	padding-top: 50px
 }
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
 	display: block
