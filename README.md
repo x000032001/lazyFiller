@@ -8,6 +8,8 @@ This program help us to fill it and generate static html.
 If you don't want use MVC or RESTful balabala things,
 only wanna build a simple website rapidly, this program may be helpful.
 
+It's ABSOLUTELY stupid but enjoying coding.
+
 ## Usage
 
 ```
