@@ -1,36 +1,26 @@
-[{
-	"title":"Home",
-	"id":"Home",
-	"header":"Hi",
+[
+{
+	"title":"首頁",
+	"sbtitle":"Home",
+	"id":"a",
 	"body":"A.html",
 	"menu": 
 	{
-		"id":"Home",
-		"text":"Home"
+		"id":"",
+		"text":""
 	} ,
 	"_out_":"Index.html"
 } ,
 {
-	"title":"Personal",
-	"id":"Personal",
-	"header":"Hi",
-	"body":"B.html",
+	"title":"申請教育學程",
+	"sbtitle":"申請",
+	"id":"a",
+	"body":"A.html",
 	"menu": 
 	{
-		"id":"Personal",
-		"text":"Personal"
+		"id":"a",
+		"text":"申請教育學程"
 	} ,
-	"_out_":"Personal.html"
-} ,
-{
-	"title":"Family",
-	"id":"Family",
-	"header":"Hi",
-	"body":"C.html",
-	"menu": 
-	{
-		"id":"Family",
-		"text":"Family"
-	} ,
-	"_out_":"Family.html"
-}]
+	"_out_":"A1.html"
+} 
+]
