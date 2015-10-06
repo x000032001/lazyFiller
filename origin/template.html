@@ -36,7 +36,6 @@
     <script src="script/jquery.cookie.js"></script>
     <script src="script/icheck.min.js"></script>
     <script src="script/custom.min.js"></script>
-    <script src="script/jquery.news-ticker.js"></script>
     <script src="script/jquery.menu.js"></script>
     <script src="script/pace.min.js"></script>
     <script src="script/holder.js"></script>
@@ -58,31 +57,35 @@
     <script src="script/exporting.js"></script>
     <script src="script/highcharts-more.js"></script>
     <script src="script/charts-highchart-pie.js"></script>
-    <script src="script/charts-highchart-more.js"></script>
     <!--CORE JAVASCRIPT-->
     <script src="script/main.js"></script>
+
+		<script>
+		// STRING SETTING
+		$(document).ready(function() {
+				$("li#<!-- @title@ -->").addClass("active");
+					$('#username_topbar').text("xnum");
+					$('#system_name').text("Admin");
+					$('#footer').text("edited by xnum");
+					$('#pg_title').text("<!-- @title@ -->");
+					$('li#pg_title2').text("<!-- @title@ -->");
+		});
+		</script>
 </head>
 <body>
     <div>
 		<script src="bar.js"></script>
 		<!-- @menu@ -->
-		<!--
-		<script>
-			$("li#dashboard").addClass("active");
-		</script>
-		-->
-
           <!--BEGIN PAGE WRAPPER-->
             <div id="page-wrapper">
                 <div id="title-breadcrumb-option-demo" class="page-title-breadcrumb">
                     <div class="page-header pull-left">
-                        <div class="page-title">
-                            Layout</div>
+                        <div class="page-title" id="pg_title"></div>
                     </div>
                     <ol class="breadcrumb page-breadcrumb pull-right">
                         <li><i class="fa fa-home"></i>&nbsp;<a href="dashboard.html">Home</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;</li>
                         <li class="hidden"><a href="#">Layout</a>&nbsp;&nbsp;<i class="fa fa-angle-right"></i>&nbsp;&nbsp;</li>
-                        <li class="active">Layout</li>
+                        <li class="active" id="pg_title2"></li>
                     </ol>
                     <div class="clearfix">
                     </div>
@@ -107,9 +110,8 @@
                 </div>
                 <!--END CONTENT-->
                 <!--BEGIN FOOTER-->
-                <div id="footer">
-                    <div class="copyright">
-                        <a href="#">Your Admin Cluster Monitoring System</a></div>
+                <div id="footer" class="copyright">
+                        %Footer%
                 </div>
                 <!--END FOOTER-->
             </div>
