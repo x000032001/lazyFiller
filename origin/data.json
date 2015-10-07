@@ -9,7 +9,7 @@
 		"id":"",
 		"text":""
 	} ,
-	"_out_":"Index.html"
+	"_out_":"index.html"
 } ,
 {
 	"title":"申請教育學程",
@@ -22,5 +22,17 @@
 		"text":"申請教育學程"
 	} ,
 	"_out_":"A1.html"
-} 
+} ,
+{
+	"title":"填寫學籍資料",
+	"sbtitle":"申請",
+	"id":"b",
+	"body":"A.html",
+	"menu": 
+	{
+		"id":"b",
+		"text":"填寫學籍資料"
+	} ,
+	"_out_":"A2.html"
+}
 ]
