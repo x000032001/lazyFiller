@@ -1,4 +1,4 @@
-lazyFiller ver0.2
+lazyFiller ver0.2.1
 ===
 
 ## Introduction
@@ -25,5 +25,10 @@ In origin/data.json
 
 ## Change Log
 
+ver0.2.1 fix bugs for include html file is utf-8
+
 ver0.2 using unicode to process Chinese
+
 ver0.1 first stable
+
+

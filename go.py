@@ -29,7 +29,7 @@ for ele in data:
         if key[0] != '_':
             # if is html then just write it to output
             if '.html' in val:
-                with open(IN_DIR + val,'r') as inc_file:
+                with codecs.open(IN_DIR + val,'r','utf-8') as inc_file:
                     inc = inc_file.read()
                     tl = tl.replace(target,"<!-- ##"+val+"-->\n"+inc+"<!-- ##"+val+"-->\n")
             elif key == "menu":
