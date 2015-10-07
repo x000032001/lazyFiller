@@ -1,4 +1,4 @@
-lazyFiller ver0.1
+lazyFiller ver0.2
 ===
 
 ## Introduction
@@ -16,4 +16,14 @@ It's ABSOLUTELY stupid but enjoying coding.
 ./go.py
 ```
 
-Look at origin/data.json, all there.
+```
+In origin/data.json
+['id'] 一定要unique
+['menu']['id'] 如果沒填 代表網頁sidebar不顯示這個選項
+其他欄位可以重複
+```
+
+## Change Log
+
+ver0.2 using unicode to process Chinese
+ver0.1 first stable
